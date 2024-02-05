@@ -11,7 +11,7 @@ class food
 	{
 	   cout<< " welcome to my cafe"<<endl;
 	}
-	 void input(int x)
+	 void input()
 	 {
 	 	cout<<" enter the details : "<<x<<endl;
 	 	cin>>id;
@@ -54,21 +54,10 @@ class food
 };
 main()
 {
-	class food f[2];
-	
-	int x=1,i;
-	for(i=0;i<2;i++)
-	{
-		f[i].input(x);
-		
-		x++;
-	
-	}
-	for(i=0;i<2;i++)
-	{
-		f[i].output();
-	}
-	
+	class food f;
+
+		f.input();
+		f.output();
 	
 }
 
