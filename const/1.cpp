@@ -1,11 +1,4 @@
-//Q.1 Write a Program to create Student Record System for 5 students using Encapsulation. Consider the below-mentioned attributes in the Student class:
-//- stu_id
-//- stu_name
-//- stu_age
-//- stu_course
-//- stu_city
-//- stu_email
-//- stu_college
+
 
 #include<iostream>
 using namespace std;
