@@ -38,10 +38,13 @@ int main()
 { 
 	int id,staffq,revenue,raw_diamonds,export_diamonds,i;
 	string comp_name,ceo;
-    Diamond s[2]=Diamond( id, staffq, revenue, raw_diamonds, export_diamonds, comp_name, ceo);
+	int n;
+	cout<< "enter the n:";
+	cin>>n;
+    Diamond s[n]=Diamond( id, staffq, revenue, raw_diamonds, export_diamonds, comp_name, ceo);
  
 	
-	for(i=0;i<2;i++)
+	for(i=0;i<n;i++)
 	{
 
 		
@@ -77,7 +80,7 @@ int main()
 	}
  
     int x=1;
-    for(i=0;i<2;i++)
+    for(i=0;i<n;i++)
     {
     
     	s[i].output(x);
